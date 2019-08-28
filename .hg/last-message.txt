@@ -1,0 +1,4 @@
+Command line tool that generates requested number of unique MD5 hashes, one per line.
+Was used in Radio Equipment Directive (RED) certification of ASUS USB Wi-Fi adapter used inside Wireless Versatek Device (WVD).
+Purpose of this tool was to generate large ASCII files which were transfered and received over the Wi-Fi during certification.
+Because of high randomness of sent data if received file matches the original file then transfer can be considered good with very high confidence.
